@@ -57,7 +57,7 @@ void push(ArrayList * l, void * data, int i)
 void* pop(ArrayList * l, int i)
 {
 
-  l->size++;
+  l->size--;
   return NULL;
 }
 
