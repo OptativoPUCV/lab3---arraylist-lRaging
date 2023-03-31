@@ -92,3 +92,14 @@ arraylist.c:48:9: error: statement with no effect [-Werror=unused-value]
 cc1: all warnings being treated as errors
 Compilation failed
 1c21358
+Fri 31 Mar 2023 05:15:42 PM UTC: 
+ arraylist.c | 14 +++++---------
+ 1 file changed, 5 insertions(+), 9 deletions(-)
+In file included from test.c:5:
+arraylist.c: In function ‘push’:
+arraylist.c:48:9: error: statement with no effect [-Werror=unused-value]
+   48 |   for (l->size; l->size >= i; l->size--)
+      |        ~^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+e01cd29
