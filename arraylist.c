@@ -88,4 +88,9 @@ int get_size(ArrayList * l){
 
 void clean(ArrayList * l)
 {
+  if(l->size == 0) return;
+  for(int j=0 ; j<l->size ; j++)
+  {
+      pop(l, j);
+  }
 }
