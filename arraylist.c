@@ -58,7 +58,6 @@ void* pop(ArrayList * l, int i)
 {
   void * aux;
   aux = l->data[i];
-  printf("%d", l->size);
   
   if(l->size == 0) return NULL;
   
