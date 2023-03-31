@@ -57,9 +57,10 @@ void push(ArrayList * l, void * data, int i)
 void* pop(ArrayList * l, int i)
 {
   void * aux;
-  aux= l->data[i];
+  aux = l->data[i];
+  printf("%d", l->size);
   
-  if(l->size == NULL) return NULL;
+  if(l->size == 0) return NULL;
   
   if(i<0) i = l->size+i;
   if(i>=0) 

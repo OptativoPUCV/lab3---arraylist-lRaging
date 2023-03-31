@@ -274,3 +274,9 @@ arraylist.c:62:14: error: comparison between pointer and integer [-Werror]
 cc1: all warnings being treated as errors
 Compilation failed
 4461a4d
+Fri 31 Mar 2023 06:15:55 PM UTC: 
+ arraylist.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  11|1
+total_score: 50/70
+acf04d8
