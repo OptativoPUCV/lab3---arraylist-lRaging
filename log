@@ -70,3 +70,14 @@ Fri 31 Mar 2023 01:07:21 AM UTC:
  tests:  5|3
 total_score: 30/70
 1d7ff4b
+Fri 31 Mar 2023 01:08:08 AM UTC: 
+ arraylist.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+arraylist.c: In function ‘push’:
+arraylist.c:48:9: error: statement with no effect [-Werror=unused-value]
+   48 |   for (l->size; l->size > i; l->size--)
+      |        ~^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+29109f2
