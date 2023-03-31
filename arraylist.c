@@ -92,5 +92,6 @@ void clean(ArrayList * l)
   for(int j=0 ; j<l->size ; j++)
   {
       pop(l, j);
+    l->size--;
   }
 }
