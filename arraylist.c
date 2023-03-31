@@ -62,7 +62,7 @@ void* pop(ArrayList * l, int i)
   {
     for(int j=i; j<l->size-1; j++)
     {
-      l->data[j+1] = l->data[j];
+      l->data[j] = l->data[j+1];
     }
   }
 
