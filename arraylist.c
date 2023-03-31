@@ -53,19 +53,23 @@ void push(ArrayList * l, void * data, int i)
   l->size++;
 }
 
-void* pop(ArrayList * l, int i){
+void* pop(ArrayList * l, int i)
+{
     return NULL;
 }
 
-void* get(ArrayList * l, int i){
+void* get(ArrayList * l, int i)
+{
     return NULL;
 }
 
-int get_size(ArrayList * l){
+int get_size(ArrayList * l)
+{
     return l->size;
 }
 
 //remove elements
-void clean(ArrayList * l){
+void clean(ArrayList * l)
+{
     
 }
