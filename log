@@ -263,3 +263,14 @@ Fri 31 Mar 2023 06:09:04 PM UTC:
  tests:  10|2
 total_score: 40/70
 3f28c74
+Fri 31 Mar 2023 06:10:09 PM UTC: 
+ arraylist.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘pop’:
+arraylist.c:62:14: error: comparison between pointer and integer [-Werror]
+   62 |   if(l->size == NULL) return NULL;
+      |              ^~
+cc1: all warnings being treated as errors
+Compilation failed
+4461a4d
