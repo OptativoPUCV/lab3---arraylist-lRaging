@@ -60,7 +60,7 @@ void* pop(ArrayList * l, int i)
   aux= l->data[i];
   
   if(l->data == NULL) return NULL;
-  if(i<0) i = -i;
+  if(i<0) i = l->size+i;
   if(i>=0) 
   {
     for(int j=i; j<l->size-1; j++)
